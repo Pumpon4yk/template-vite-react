@@ -44,6 +44,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
+            token: ***
+    enablement: true
           # Upload dist repository
           path: './dist'
       - name: Deploy to GitHub Pages
